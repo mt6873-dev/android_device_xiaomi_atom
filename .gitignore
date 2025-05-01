@@ -1,8 +1,4 @@
 # Ignore prebuilt files, generate them from the stock ROM when use them
 .vscode
-**/*.apk
-**/*.so
-**/*.jar
 **/.idea
 **/*.iml
-prebuilt/bootimg

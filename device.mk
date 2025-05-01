@@ -351,8 +351,4 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libnl
 
-$(call inherit-product, $(LOCAL_PATH)/prebuilt/lawnchair.mk)
-# $(call inherit-product, $(LOCAL_PATH)/LogCollector/log_collector.mk)
-
 $(call inherit-product, vendor/xiaomi/atom/atom-vendor.mk)
-

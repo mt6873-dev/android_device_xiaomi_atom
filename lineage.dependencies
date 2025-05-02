@@ -3,12 +3,18 @@
    "repository"  : "LineageOS/android_device_mediatek_sepolicy_vndr",
    "target_path" : "device/mediatek/sepolicy_vndr",
    "remote"      : "github",
-   "branch"      : "lineage-21"
+   "branch"      : "lineage-22.2"
  },
  {
-   "repository"  : "MiCode/Xiaomi_Kernel_OpenSource",
+   "repository"  : "HuaLiMao-AQ/android_kernel_xiaomi_mt6873",
    "target_path" : "kernel/xiaomi/atom",
    "remote"      : "github",
-   "branch"      : "pissarro-s-oss"
+   "branch"      : "cgroup-v2"
+ },
+ {
+   "repository"  : "LineageOS/android_hardware_mediatek",
+   "target_path" : "hardware/mediatek",
+   "remote"      : "github",
+   "branch"      : "lineage-22.2"
  }
 ]

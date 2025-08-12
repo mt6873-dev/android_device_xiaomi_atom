@@ -6,7 +6,7 @@
    "branch"      : "lineage-22.2"
  },
  {
-   "repository"  : "HuaLiMao-AQ/android_kernel_xiaomi_mt6873",
+   "repository"  : "mt6873-dev/android_kernel_xiaomi_mt6873",
    "target_path" : "kernel/xiaomi/atom",
    "remote"      : "github",
    "branch"      : "cgroup-v2"

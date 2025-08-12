@@ -115,7 +115,7 @@ BOARD_MAIN_PARTITION_LIST := system product vendor
 BOARD_SUPER_PARTITION_ERROR_LIMIT := 9124708352
 
 # FOD
-TARGET_SURFACEFLINGER_UDFPS_LIB := //$(DEVICE_PATH):libudfps_extension.xiaomi_atom
+$(call soong_config_set, surfaceflinger, udfps_lib, //$(DEVICE_PATH):libudfps_extension.xiaomi_atom)
 TARGET_USES_FOD_ZPOS := true
 
 # HIDL
